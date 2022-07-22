@@ -4,7 +4,7 @@ var n0 = 0, n1 = 1
 
 for (let i = 0; i < entradaUsuario; i++) { 
   var total = n0+n1
-  console.log(n0, n1, total);
+  console.log(`${n0} + ${n1} = ${total}`);
   n0 = n1
   n1 = total
   if (entradaUsuario === n1) {
@@ -14,7 +14,7 @@ for (let i = 0; i < entradaUsuario; i++) {
 };
 
 if (verificarNumero) {
-  console.log('Pertence a Fibonacci');
+  console.log(`${entradaUsuario} Pertence a Fibonacci`);
 } else {
-  console.log('Não pertence a Fibonacci');
+  console.log(`${entradaUsuario} Não pertence a Fibonacci`);
 };
